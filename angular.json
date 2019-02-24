@@ -136,5 +136,30 @@
       }
     }
   },
-  "defaultProject": "product-marketing-fe"
+  "defaultProject": "product-marketing-fe",
+  "schematics": {
+    "@schematics/angular": {
+      "component": {
+        "spec": false
+      },
+      "class": {
+        "spec": false
+      },
+      "module": {
+        "spec": false
+      },
+      "directive": {
+        "spec": false
+      },
+      "guard": {
+        "spec": false
+      },
+      "pipe": {
+        "spec": false
+      },
+      "service": {
+        "spec": false
+      }
+    }
+  }
 }
