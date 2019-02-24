@@ -1,0 +1,16 @@
+/*__________________________________________*/
+@font-face {
+  font-family: 'CoreSansGS45';
+  src: url("../core-sans/CoreSansGS45.ttf?ln=sentinel-layout") format('truetype'),
+    url("../core-sans/CoreSansGS45.svg?ln=sentinel-layout") format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoreSansGS45';
+  src: url("../core-sans/CoreSansGS45Bold.ttf?ln=sentinel-layout") format('truetype'),
+    url("../core-sans/CoreSansGS45Bold.svg?ln=sentinel-layout") format('svg');
+  font-weight: 800;
+  font-style: normal;
+}

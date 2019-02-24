@@ -1,1 +1,161 @@
-/* You can add global styles to this file, and also import other style files */
+@import './assets/css/vendors.css';
+@import './assets/css/app.css';
+@import './assets/css/vertical-menu.css';
+@import './assets/css/style.css';
+@import './assets/libs/fonts/core-sans/core-sans.css';
+
+span.menu-title {
+  font-family: CoreSansGS45 !important;
+  font-weight: normal !important;
+}
+
+.navbar-semi-dark .navbar-header {
+  background: #00706B;
+}
+
+ul#main-menu-navigation {
+  background: #00857f;
+}
+
+.main-menu.menu-dark .navigation li a {
+  color: #ffffff;
+}
+
+// .navigation li a {
+//   border-left: 0px solid transparent;
+// }
+
+.main-menu.menu-dark {
+  background: #00857f;
+}
+
+img.brand-logo {
+  margin: 5px 0px 0px 25px;
+}
+
+.content-header-title {
+  font-family: CoreSansGS45 !important;
+  font-weight: bold !important;
+}
+
+.dropdown-item-account-info {
+  font-family: CoreSansGS45 !important;
+  font-weight: bold !important;
+}
+.dropdown-item-forget-password {
+  font-family: CoreSansGS45 !important;
+  font-weight: bold !important;
+}
+.dropdown-item-logout {
+  font-family: CoreSansGS45 !important;
+  font-weight: bold !important;
+}
+
+// .navbar-header {
+//   border-bottom: 1px solid #006d68;
+// }
+
+.navigation-header>span {
+  font-family: CoreSansGS45 !important;
+  font-weight: normal !important;
+}
+
+// .nav-item>i {
+//   color: #aaa;
+//   top: 12px;
+//   left: 16px;
+//   font-size: 18px;
+// }
+
+// .nav-item>a:hover {
+//   background-color: #007A75;
+// }
+
+// .nav-item {
+//   border-bottom: 1px solid #006d68;
+//   height: 60px;
+//   display: flex;
+//   align-items: center;
+//   border-left: 0px solid transparent;
+// }
+
+// .navbar-nav {
+//   height: 40px;
+// }
+
+// .navbar-user {
+//   height: 100%;
+// }
+
+.search-all {
+  border: none !important;
+  background-color: #F6F8FA;
+  padding-left: 45px;
+  height: 100%;
+}
+
+.search-all:focus {
+  background-color: #F6F8FA;
+}
+
+// .header-navbar .navbar-header {
+//   height: 64px !important;
+// }
+
+// .navbar-container {
+//   height: 64px;
+// }
+
+// .navbar-collapse {
+//   padding: 5px;
+// }
+
+// .main-menu.menu-dark .navigation>li {
+//   border-left: 0px solid transparent;
+// }
+
+// .main-menu.menu-dark .navigation .navigation-header {
+//   color: #ffffff;
+// }
+
+// .main-menu.menu-dark .navigation>li>a {
+//   padding: 10px 30px 10px 25px;
+// }
+
+// .main-menu.menu-dark .navigation>li>a i {
+//   top: 0;
+// }
+
+.icon-search-all {
+  color: #aaa;
+  top: 12px;
+  left: 16px;
+  font-size: 18px;
+}
+
+// .navigation-header {
+//   border-bottom: 1px solid #006d68;
+// }
+
+body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>i {
+  margin-right: 20px;
+}
+
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content>span.menu-title,
+body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content a.menu-title {
+    padding: 20px 20px;
+}
+
+// .main-menu.menu-dark .navigation > li.open {
+//     border-left: 0px solid #00B5B8;
+// }
+
+// .main-menu.menu-dark .navigation > li > ul {
+//     background: #007A75;
+// }
+
+// .menu-content {
+//     margin-top: 75px !important;
+//     position: fixed !important;
+//     padding: 0px 20px !important;
+// }
