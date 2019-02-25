@@ -42,10 +42,12 @@ img.brand-logo {
   font-family: CoreSansGS45 !important;
   font-weight: bold !important;
 }
+
 .dropdown-item-forget-password {
   font-family: CoreSansGS45 !important;
   font-weight: bold !important;
 }
+
 .dropdown-item-logout {
   font-family: CoreSansGS45 !important;
   font-weight: bold !important;
@@ -143,7 +145,7 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>i {
 
 body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content>span.menu-title,
 body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content a.menu-title {
-    padding: 20px 20px;
+  padding: 20px 20px;
 }
 
 // .main-menu.menu-dark .navigation > li.open {
@@ -159,3 +161,20 @@ body.vertical-layout.vertical-menu.menu-collapsed .main-menu .main-menu-content 
 //     position: fixed !important;
 //     padding: 0px 20px !important;
 // }
+
+.ui-tab-selected {
+  color: #00857F !important;
+  background-color: #F2F9F8 !important;
+  border-left: 2px solid #00857F !important;
+}
+
+.btn-primary {
+  background-color: #00857f !important;
+}
+
+.form-title {
+  font-size: 13px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #00857f !important;
+}

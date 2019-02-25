@@ -5,7 +5,13 @@ import { MainComponent } from './main.component';
 const routes: Routes = [
   {
     path: '',
-    component: MainComponent
+    component: MainComponent,
+    children: [
+      {
+        path: 'account',
+        loadChildren: '../account/account.module#AccountModule'
+      }
+    ]
   }
 ];
 

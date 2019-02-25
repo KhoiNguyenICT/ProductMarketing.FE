@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainComponent } from './main.component';
 import { MainRoutingModule } from './main-routing.module';
+import { AccountModule } from '../account/account.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MainRoutingModule } from './main-routing.module';
   ],
   imports: [
     CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    AccountModule
   ]
 })
 export class MainModule { }
