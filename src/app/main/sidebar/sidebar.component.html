@@ -2,93 +2,87 @@
   <div class="main-menu-content">
     <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
       <li class=" navigation-header">
-        <span>Marketing</span>
+        <span>Home</span>
       </li>
       <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
+        <a routerLink="/dashboard" routerLinkActive="active" class="h-100 d-flex align-items-center w-100">
           <i class="fal fa-chart-pie-alt"></i>
           <span class="menu-title">Trang chủ</span>
         </a>
       </li>
-      <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
-          <i class="fal fa-chart-pie-alt"></i>
-          <span class="menu-title">Danh sách contacts</span>
-        </a>
+      <li class=" navigation-header">
+        <span>Marketing</span>
       </li>
       <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
+        <a routerLink="/contact/contact-list" routerLinkActive="active" class="h-100 d-flex align-items-center w-100">
           <i class="fal fa-chart-pie-alt"></i>
-          <span class="menu-title">Tìm kiếm contacts</span>
+          <span class="menu-title">Danh sách contact</span>
         </a>
       </li>
-      <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
-          <i class="fal fa-chart-pie-alt"></i>
-          <span class="menu-title">Contacts đăng ký lại</span>
-        </a>
-      </li>
-    </ul>
-    <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
       <li class=" navigation-header">
         <span>Facebook</span>
       </li>
       <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
+        <a routerLink="/facebook-advertising/facebook-advertising-account-list" routerLinkActive="active" class="h-100 d-flex align-items-center w-100">
           <i class="fal fa-chart-pie-alt"></i>
           <span class="menu-title">Tài khoản quảng cáo</span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
+        <a routerLink="/facebook-page/facebook-page-list" routerLinkActive="active" class="h-100 d-flex align-items-center w-100">
           <i class="fal fa-chart-pie-alt"></i>
-          <span class="menu-title">Chi phí chuyển đổi</span>
+          <span class="menu-title">Danh sách fanpage</span>
         </a>
       </li>
-    </ul>
-    <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
       <li class=" navigation-header">
         <span>Sale</span>
       </li>
       <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
+        <a href="chat-application.html" routerLinkActive="active" class="h-100 d-flex align-items-center w-100">
           <i class="fal fa-chart-pie-alt"></i>
-          <span class="menu-title">Tài khoản quảng cáo</span>
+          <span class="menu-title">Danh sách contact sale</span>
         </a>
       </li>
       <li class="nav-item">
-        <a href="chat-application.html" class="h-100 d-flex align-items-center w-100">
-          <i class="fal fa-chart-pie-alt"></i>
-          <span class="menu-title">Chi phí chuyển đổi</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="align-items-center d-flex h-100 w-100">
+        <a href="#" routerLinkActive="active" class="align-items-center d-flex h-100 w-100">
           <i class="ft-share"></i>
-          <span class="menu-title">Timelines</span>
+          <span class="menu-title">Chăm sóc contact</span>
         </a>
         <ul class="menu-content">
           <li>
-            <a class="menu-item" href="timeline-center.html">Timelines Center</a>
-          </li>
-          <li>
-            <a class="menu-item" href="timeline-horizontal.html">Timelines Horizontal</a>
+            <a class="menu-item" href="timeline-center.html">Danh sách đăng ký lại</a>
           </li>
         </ul>
       </li>
+      <li class=" navigation-header">
+        <span>Thống kê</span>
+      </li>
       <li class="nav-item">
-        <a href="#" class="align-items-center d-flex h-100 w-100">
-          <i class="ft-share"></i>
-          <span class="menu-title">Timelines</span>
+        <a routerLink="/facebook-advertising/facebook-advertising-account-list" class="h-100 d-flex align-items-center w-100">
+          <i class="fal fa-chart-pie-alt"></i>
+          <span class="menu-title">Thống kế marketing</span>
         </a>
-        <ul class="menu-content">
-          <li>
-            <a class="menu-item" href="timeline-center.html">Timelines Center</a>
-          </li>
-          <li>
-            <a class="menu-item" href="timeline-horizontal.html">Timelines Horizontal</a>
-          </li>
-        </ul>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/facebook-page/facebook-page-list" class="h-100 d-flex align-items-center w-100">
+          <i class="fal fa-chart-pie-alt"></i>
+          <span class="menu-title">Thống kê sale</span>
+        </a>
+      </li>
+      <li class=" navigation-header">
+        <span>Trợ giúp</span>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/facebook-advertising/facebook-advertising-account-list" class="h-100 d-flex align-items-center w-100">
+          <i class="fal fa-chart-pie-alt"></i>
+          <span class="menu-title">Hướng dẫn sử dụng</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/facebook-page/facebook-page-list" class="h-100 d-flex align-items-center w-100">
+          <i class="fal fa-chart-pie-alt"></i>
+          <span class="menu-title">Liên hệ</span>
+        </a>
       </li>
     </ul>
   </div>
