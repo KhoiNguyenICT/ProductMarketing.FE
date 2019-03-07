@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class FacebookCommentComponent implements OnInit {
 
   page = {
-    title: "Facebook Comments"
+    title: "Facebook Comments",
+    adsTabName:"Ads",
+    postsTabName:"Posts"
   }
   constructor() { }
 
@@ -17,22 +19,3 @@ export class FacebookCommentComponent implements OnInit {
 
 }
 
-@Component({
-  selector: 'nz-demo-tab-content-lazy',
-  template: `lazy`
-})
-export class NzDemoTabContentLazyComponent implements OnInit {
-  ngOnInit(): void {
-    console.log(`I will init when tab active`);
-  }
-}
-
-@Component({
-  selector: 'nz-demo-tab-content-eagerly',
-  template: `eagerly`
-})
-export class NzDemoTabContentEagerlyComponent implements OnInit {
-  ngOnInit(): void {
-    console.log(`I will init eagerly`);
-  }
-}
