@@ -1,1 +1,31 @@
+<div nz-row class="page-head">
+  <div class="page-title">
+    <h1>{{page.title}}</h1>
+  </div>
+</div>
+<div nz-row nzSpan="24">
+  <div nz-col nzSpan="6">
+        <nz-tabset>
+                <nz-tab nzTitle="Tab Eagerly 1">
+                  <nz-demo-tab-content-eagerly></nz-demo-tab-content-eagerly>
+                </nz-tab>
+                <nz-tab nzTitle="Tab Eagerly 2">
+                  <nz-demo-tab-content-eagerly></nz-demo-tab-content-eagerly>
+                </nz-tab>
+                <nz-tab nzTitle="Tab Lazy 1">
+                  <ng-template nz-tab>
+                    <nz-demo-tab-content-lazy></nz-demo-tab-content-lazy>
+                  </ng-template>
+                </nz-tab>
+                <nz-tab nzTitle="Tab Lazy 2">
+                  <ng-template nz-tab>
+                    <nz-demo-tab-content-lazy></nz-demo-tab-content-lazy>
+                  </ng-template>
+                </nz-tab>
+              </nz-tabset>
+  </div>
+  <div nz-col nzSpan="12">col-12</div>
+  <div nz-col nzSpan="6">col-6</div>
+</div>
+
 <router-outlet></router-outlet>
